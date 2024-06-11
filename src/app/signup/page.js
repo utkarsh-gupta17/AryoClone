@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const page = () => {
   return (
-    <div className="px-1 border-4 border-black overflow-auto h-[46rem] flex justify-center items-center">
+    <div className="px-1 overflow-auto h-[46rem] flex justify-center items-center">
       <div className="py-8 flex-col justify-center items-center px-2">
         <Image src='/aryo.png' width='200' height='50' className="mx-auto mb-8" />
         <p className="text-center p-3">Sign in <span className="text-slate-500">or</span> Sign up</p>

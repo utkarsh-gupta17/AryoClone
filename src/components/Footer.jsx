@@ -6,7 +6,7 @@ import { SiGnuprivacyguard } from "react-icons/si";
 const Footer = () => {
   return (
     <footer>
-      <div className='flex justify-between items-center border-4 border-green-500 p-4'>
+      <div className='flex justify-between items-center p-4'>
         <Link href='/'>
           <IoMdHome className='mx-auto'/>
           <p className='text-center text-sm'>Home</p>
