@@ -10,7 +10,7 @@ import Navbar from "@/components/Navbar";
 
 const page = () => {
   return (
-    <div className="px-1 border-4 border-black overflow-auto">
+    <div className="px-1 border-4 border-black overflow-auto h-[46rem] scrollbar-hide">
         {/* <Carousal/> */}
         <Navbar/>
         <CreditCard/>
